@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c50f46395deaa64d89758865358b3aa, type: 3}
+  m_Name: ShootPattern
+  m_EditorClassIdentifier: 
+  type: 1
+  hitInfo:
+    <Damage>k__BackingField: 12
+    <Type>k__BackingField: 1
+    <WindupTime>k__BackingField: 0.2
+    <ActiveTime>k__BackingField: 0.1
+    <ProjectileSpeed>k__BackingField: 10
+    <knockbackForce>k__BackingField: 0
+  delay: 1
+  patternData: {fileID: 11400000, guid: 4186ea606d1002845a539b9e61d45775, type: 2}

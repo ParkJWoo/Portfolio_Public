@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29e5d4d0ca3e91498ddfb3564703163, type: 3}
+  m_Name: SummonPatternData
+  m_EditorClassIdentifier: 
+  summonCountMinPhase1: 2
+  summonCountMaxPhase1: 4
+  summonCountMinPhase2: 5
+  summonCountMaxPhase2: 8
+  summonInterval: 1.2
+  summonRadius: 4
+  minDistance: 2
+  summonPrefabs:
+  - {fileID: 693850005194803425, guid: f397f0cd4951b9849b771473f2783338, type: 3}
+  - {fileID: 36981322698658761, guid: 585d857c694bc574e97baf1e661a066e, type: 3}
+  fallGravity: 1
+  spawnY: -11.94
+  spawnHeight: 0
