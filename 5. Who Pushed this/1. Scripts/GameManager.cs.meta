@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8fd6cb8eec5270d4abd53092388657e1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - firstCard: {instanceID: 0}
+  - secondCard: {instanceID: 0}
+  - clip: {instanceID: 0}
+  - clearPanel: {instanceID: 0}
+  - timeTxt: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
