@@ -10,10 +10,10 @@ Unity & C# 기반으로 제작한 게임 클라이언트 프로젝트들을 정�
 
 | 프로젝트 | 장르/형식 | 기간 | 담당 역할 | 바로가기 |
 |:---:|:---|:---:|:---|:---:|
-| 🐇 **Project Rabbit** | 2D 횡스크롤 액션 (최종 프로젝트) | 2025.06 ~ 08 | 🧩 보스 FSM & 패턴 설계<br>👹 엘리트 몬스터 AI<br>🌊 웨이브 시스템<br>💥 이펙트 구현 | [🔗 Link](./Project%20Rabbit) |
-| 👻 **Whisper of Escape** | 3D 호러 퍼즐 | 2025.06 | 🎥 카메라 연출 (비네트/시네머신)<br>💡 조명/분위기 연출<br>📍 위치 저장 & 로드<br>🖼 UI 구축 | [🔗 Link](./Whisper%20of%20Escape) |
+| 🐇 **Project Rabbit** | 2D 횡스크롤 액션 (최종 프로젝트) | 2025.06 ~ 08 | 🧩 보스 FSM & 패턴 설계<br>👹 일반/정예 몬스터 5종 AI<br>♻️ 몬스터 스폰 기능 구현<br> | [🔗 Link](./Project%20Rabbit) |
+| 👻 **Whisper of Escape** | 3D 호러 퍼즐 | 2025.06 | 🎥 카메라 연출 (비네트/시네머신)<br>💡적 FSM 구현<br> 🧩속삭임 기믹 및 해제 기능 구현 | [🔗 Link](./Whisper%20of%20Escape) |
 | 🚓 **The Returner Tank** | 탑다운 던전 로그라이크 | 2025.05 | ⚔️ 던전/웨이브 매니저<br>♻️ 오브젝트 풀링(Dungeon.cs)<br>🕹 스폰 & 레벨 관리 | [🔗 Link](./The%20Returner%20Tank) |
-| 🎩 **Wonderland** | 3D 퍼즐 플랫폼 | 2025.05 | 🕹 플레이어 조작 (Input System)<br>🎒 인벤토리 시스템<br>💡 조명 연출<br>📍 위치 저장 & 로드 | [🔗 Link](./Wonderland) |
+| 🎩 **Wonderland** | 3D 퍼즐 플랫폼 | 2025.05 | 🕹 플레이어 조작 (Input System)<br>🎒 인벤토리 시스템<br>💡 조명 연출<br>📍 위치 저장 & 로드<br> ✏️ 가이드 문구 | [🔗 Link](./Wonderland) |
 
 ---
 
