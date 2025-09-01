@@ -9,6 +9,12 @@
 
 ---
 
+## 🎮 Preview
+![Image](https://github.com/user-attachments/assets/e051970f-2f00-42f9-bd06-95887b1b99be)
+![Image](https://github.com/user-attachments/assets/655bf874-2dca-4c78-9a7b-3ff7857c21be)
+
+---
+
 ## 🙋‍♂️ 작업 내역
 | 영역 | 내가 맡은 부분 |
 |---|---|
