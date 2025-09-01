@@ -1,13 +1,21 @@
 # 🐇 Project Rabbit
 
-## 🔎 At a Glance
+## 🔎 README 개요
+
 - 장르/기간: 2D 액션 (8주, 2025.06–08)
 - 역할: **보스 FSM/패턴, 정예 몹 FSM 3종, 적 풀링/웨이브 리팩토링**
 - 기술: FSM, Delegate 이벤트, Object Pooling, URP Shader
 - 성과: 패턴 확장성↑, 풀링으로 **GC 스파이크 제거/프레임 안정화**
-- ▶️ [시연 영상](https://youtu.be/8UbreDtBYWE) · ⬇️ [Windows 빌드](링크)
+- ▶️ [시연 영상](https://youtu.be/8UbreDtBYWE) · ⬇️ [Windows 빌드](https://drive.google.com/drive/folders/1RzH7ExUxHPEqNFo1FC_CEj43eHt-KDKe)
 
-## 🙋‍♂️ My Ownership
+## 🎮 Preview
+![TitleScene](https://github.com/RanKa110/Rabbit/blob/main/Assets/99.%20Externals/image.png)
+![TutorialScene](https://github.com/RanKa110/Rabbit/blob/main/Assets/99.%20Externals/image%20(1).png)
+![vsBossGIF](https://github.com/RanKa110/Rabbit/blob/main/Assets/99.%20Externals/3.gif)
+![vsEnemy](https://github.com/RanKa110/Rabbit/blob/main/Assets/99.%20Externals/image%20(2).png)
+
+## 🙋‍♂️ 작업 내역
+
 | 영역 | 내가 한 일 | 근거 |
 |---|---|---|
 | Boss FSM | Idle/Chase/Attack/Phase2, 전이 규칙/핸들러 조립 | [BossController.cs](https://github.com/RanKa110/Rabbit/blob/main/Assets/02.%20Scripts/Controller/BossController.cs) · [BossStates.cs](https://github.com/RanKa110/Rabbit/blob/main/Assets/02.%20Scripts/State/Boss/BossStates.cs) |
@@ -140,7 +148,7 @@
 | 스크립트 | 설명 | 기여자 |
 |---|---|---|
 | [BaseEnemyController.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/2.%20Enemy/Controller/BaseEnemyController.cs) | 적 기본 동작 베이스 클래스 | 박진우 |
-| [BaseEnemyState.cs](hhttps://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/3.%20States(Boss%2CEnemy)/Enemy/BaseEnemy/BaseEnemyState.cs | 적 개별 상태 정의 | 박진우 |
+| [BaseEnemyState.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/3.%20States(Boss%2CEnemy)/Enemy/BaseEnemy/BaseEnemyState.cs) | 적 개별 상태 정의 | 박진우 |
 | [BaseEnemyStates.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/3.%20States(Boss%2CEnemy)/Enemy/BaseEnemy/BaseEnemyStates.cs) | 적 FSM 묶음 | 박진우 |
 
 ### 2) Elite Enemy
@@ -177,4 +185,5 @@
 - [Battle VFX: Hit Spark by pimen](https://pimen.itch.io/battle-vfx-hit-spark)
 - [Smoke FX by jasontomlee](https://jasontomlee.itch.io/smoke-fx)
 - [Residential Area Bosses Pixel Art - CraftPix.net](https://craftpix.net/product/residential-area-bosses-pixel-art/CraftPix.net)
-- [Bombs and Explosions Pixel Art Set - CraftPix.net](https://craftpix.net
+- [Bombs and Explosions Pixel Art Set - CraftPix.net](https://craftpix.net/product/bombs-and-explosions-pixel-art-set/)
+- [Residential Area Tileset Pixel Art - CraftPix.net](https://craftpix.net/product/residential-area-tileset-pixel-art/)
