@@ -2,8 +2,8 @@
 
 ## 🔎 README 개요
 - 장르/기간: 3D 퍼즐 플랫폼 (1주, 2025.06)
-- 역할: **플레이어 조작, 인벤토리 시스템, 조명 연출, 위치 저장 & 로드 기능**
-- 기술: Unity Input System, ScriptableObject, Save/Load System, Lighting(URP/2D Light)
+- 역할: **플레이어 조작, 인벤토리 시스템, 조명 연출, 위치 저장 & 로드 기능, 가이드 문구 출력 기능**
+- 기술: Unity Input System, ScriptableObject, Save/Load System, Lighting(URP/2D Light), Coroutine
 - 성과: **플레이어 이동/점프 안정화**, **슬롯 기반 인벤토리 및 아이템 사용 시스템 완성**,  
   **위치 저장/로드 기능으로 진행 데이터 유지**, **조명 연출로 공간 분위기 강화**
 - ▶️ [시연 영상](https://drive.google.com/file/d/13P6lxGPXSjomlvTmESlo4HdzRF8pPvOT/view?usp=drive_link)
