@@ -3,7 +3,7 @@
 ## 🔎 README 개요
 
 - 장르/기간: 2D 액션 (8주, 2025.06–08)
-- 역할: **보스 FSM/패턴, 정예 몹 FSM 3종, 적 풀링/웨이브 리팩토링**
+- 역할: **보스 FSM/패턴, 일반/정예 몹 FSM 5종, 적 풀링/웨이브 리팩토링**
 - 기술: FSM, Delegate 이벤트, Object Pooling, URP Shader
 - 성과: 패턴 확장성↑, 풀링으로 **GC 스파이크 제거/프레임 안정화**
 - ▶️ [시연 영상](https://youtu.be/8UbreDtBYWE) · ⬇️ [Windows 빌드](https://drive.google.com/drive/folders/1RzH7ExUxHPEqNFo1FC_CEj43eHt-KDKe)
