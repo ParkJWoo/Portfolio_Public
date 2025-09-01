@@ -1,6 +1,6 @@
 # 🚩 탱크로 다시 태어난 나는 미궁을 방랑한다
 
-## 🔎 At a Glance
+## 🔎 README 개요
 - 장르/기간: 탑다운 슈팅 + 던전 크롤러 (1주, 2025.05)
 - 역할: **웨이브 & 던전 매니저, 몬스터 오브젝트 풀링, 스포너, 스테이지/레벨 관리**
 - 기술: FSM, Object Pooling, Wave System, Dungeon Manager
