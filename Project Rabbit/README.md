@@ -18,12 +18,12 @@
 
 | 영역 | 내가 한 일 | 근거 |
 |---|---|---|
-| Boss FSM | Idle/Chase/Attack/Phase2, 전이 규칙/핸들러 조립 | [BossController.cs](https://github.com/RanKa110/Rabbit/blob/main/Assets/02.%20Scripts/Controller/BossController.cs) · [BossStates.cs](https://github.com/RanKa110/Rabbit/blob/main/Assets/02.%20Scripts/State/Boss/BossStates.cs) |
-| Attack Patterns | Charge / Shelling / Shoot / Summon / TNT | [BossPatterns/](https://github.com/RanKa110/Rabbit/tree/main/Assets/02.%20Scripts/Boss/Attack/BossPatterns) |
-| Enemy 리팩토링 | 정예 3종 FSM, Normal 라인 정리 | [Elite/](https://github.com/RanKa110/Rabbit/tree/main/Assets/02.%20Scripts/Controller/Enemies/Elite) |
-| 풀링/웨이브 | ProjectilePool, EliteEnemyPool, WaveManager | [Pooling/](https://github.com/RanKa110/Rabbit/tree/main/Assets/02.%20Scripts/Enemy/EliteEnemy/Pooling) |
+| Boss FSM | Idle/Chase/Attack/Phase2, 전이 규칙/핸들러 조립 | [BossController.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/1.%20Controller/BossController.cs) · [BossStates.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/3.%20States(Boss%2CEnemy)/Boss/BossStates.cs) |
+| Attack Patterns | Charge / Shelling / Shoot / Summon / TNT | [BossPatterns/](https://github.com/ParkJWoo/Portfolio_Public/tree/main/Project%20Rabbit/CodeSamples/1.%20Boss/3.%20Attack/BossPatterns) |
+| Enemy 리팩토링 | 일반/정예 5종 FSM | [Enemy/](https://github.com/ParkJWoo/Portfolio_Public/tree/main/Project%20Rabbit/CodeSamples/2.%20Enemy) |
+| 풀링/웨이브 | ProjectilePool, EliteEnemyPool, WaveManager | [Pooling/](https://github.com/ParkJWoo/Portfolio_Public/tree/main/Project%20Rabbit/CodeSamples/2.%20Enemy/EliteEnemy/Pooling) |
 
-## 🧩 Key Challenges & Solutions
+## 🧩 트러블 슈팅 & 해결 방식 요약 (상세 내용: [해당 링크 참고](https://velog.io/@character453/%EC%B5%9C%EC%A2%85-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B3%B4%EC%8A%A4-%EB%8F%8C%EC%A7%84%EB%84%89%EB%B0%B1%EC%9D%B4%ED%83%88-%EC%9D%B4%EC%8A%88))
 - 돌진 패턴에서 벽 끼임/수직 튕김 → **넉백 벡터 클램프 + 충돌 각도 보정** → 재현 불가
 - WebGL 빌드 실행 불가 → **압축 포맷/로더 설정 교정** → 브라우저 정상 실행
 - 적 스폰/반납 시 GC 스파이크 → **풀링 Reset/Return 규약** → 프레임 안정화
@@ -136,7 +136,7 @@
 | 스크립트 | 내용 | 기여자 |
 |---|---|---|
 | [BossController.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/1.%20Controller/BossController.cs) | 보스 FSM의 메인 컨트롤러 | 박진우 |
-| [BossStates.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/3.%20States(Boss%2CEnemy)/Boss/BossState.cs) | 보스 FSM 상태 정의/전이 | 박진우 |
+| [BossStates.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/3.%20States(Boss%2CEnemy)/Boss/BossStates.cs) | 보스 FSM 상태 정의/전이 | 박진우 |
 | [AnimationEventRelay.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/AnimationEventRelay.cs) | 애니메이션 이벤트 전달 | 박진우 |
 | [DamageReceiver.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/DamageReceiver.cs) | 보스 피격/체력 처리 | 박진우 |
 
