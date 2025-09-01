@@ -119,7 +119,7 @@
 ### 4) Handlers
 | 스크립트 | 내용 | 기여자 |
 |---|---|---|
-| [AnimationHandler.cs]([https://github.com/RanKa110/Rabbit/blob/main/Assets/02.%20Scripts/Boss/Handlers/AnimationHandler.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/2.%20Handlers/AnimationHandler.cs)) | 보스 애니메이션 상태 제어 | 박진우 |
+| [AnimationHandler.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/2.%20Handlers/AnimationHandler.cs) | 보스 애니메이션 상태 제어 | 박진우 |
 | [AttackHandler.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/2.%20Handlers/AttackHandler.cs) | 공격 데이터 적용, 히트 이벤트 처리 | 박진우 |
 | [BossAudioHandler.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/2.%20Handlers/BossAudioHandler.cs) | 보스 SFX 관리 | 박진우 |
 | [BossEffectHandler.cs](https://github.com/ParkJWoo/Portfolio_Public/blob/main/Project%20Rabbit/CodeSamples/1.%20Boss/2.%20Handlers/BossEffectHandler.cs) | 잔상, 폭발, 먼지 등 이펙트 관리 | 박진우 |
