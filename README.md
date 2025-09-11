@@ -4,6 +4,7 @@
 Unity & C# 기반으로 제작한 게임 클라이언트 프로젝트들을 정리했습니다.  
 각 프로젝트 폴더에는 **상세 README + 코드 하이라이트 + Preview(GIF/이미지)** 가 포함되어 있습니다.
 
+> **[박진우 개발자 블로그](https://velog.io/@character453/posts)** → 해당 포트폴리오를 작업하면서 기록해둔 블로그 링크입니다.
 ---
 
 ## 🚀 Projects Overview
